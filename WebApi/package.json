@@ -1,0 +1,47 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.3",
+    "age-calculator": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "date-and-time": "^0.6.3",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "fcm-node": "^1.5.1",
+    "firebase-admin": "^8.1.0",
+    "firebase-functions": "^3.0.1",
+    "get-age": "^1.0.1",
+    "httpclient": "^0.1.0",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-cron": "^2.0.3",
+    "node-linq": "0.0.5",
+    "path": "^0.12.7",
+    "pm2": "^3.5.1",
+    "replace-string": "^3.0.0",
+    "request": "^2.88.0",
+    "round-to": "^4.0.0",
+    "shelljs": "^0.8.3",
+    "simple-node-logger": "^18.12.22",
+    "split-string": "^6.1.0",
+    "uuid-token-generator": "^1.0.0",
+    "xml2json": "^0.11.2",
+    "xmldoc": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "string-contains": "^0.1.0"
+  }
+}
